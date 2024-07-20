@@ -1,0 +1,16 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>RoundedImage.qml</file>
+        <file>RoundedImage1.qml</file>
+        <file>shaders/mask.frag</file>
+        <file>shaders/round.frag</file>
+        <file>shaders/roundedCorner.frag</file>
+        <file>qt-logo.png</file>
+        <file>shaders/mask.frag.qsb</file>
+        <file>shaders/round.frag.qsb</file>
+        <file>shaders/roundedCorner.frag.qsb</file>
+        <file>RoundedImage2.qml</file>
+        <file>RoundedImage3.qml</file>
+    </qresource>
+</RCC>
