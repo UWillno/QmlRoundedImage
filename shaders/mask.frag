@@ -5,7 +5,7 @@
 layout(location = 0) in vec2 qt_TexCoord0;
 // 输出片段颜色
 layout(location = 0) out vec4 fragColor;
-// 缓冲对象 （全局“常量”）
+// 缓冲对象
 layout(std140, binding = 0) uniform buf {
     // 变换矩阵
     mat4 qt_Matrix;
