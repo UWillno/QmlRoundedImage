@@ -21,7 +21,7 @@ void main() {
     // 当前坐标
     vec2 coord = vec2(qt_TexCoord0.x*width,qt_TexCoord0.y*height);
 
-    // 左上，左下，右下，右上
+    // 左上，左下，右下，右上 坐标
     vec2 upperLeft,upperRight,lowerLeft,lowerRight;
     upperLeft = vec2(r,height - r);
     lowerLeft = vec2(r,r);

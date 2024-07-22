@@ -6,7 +6,7 @@ Window {
     height: 640
     visible: true
     title: qsTr("Hello World")
-
+    color: "lightblue"
     ListModel {
         id:listModel
         // 高宽相等 半径小于宽的一半
@@ -103,7 +103,7 @@ Window {
                         width: model.width
                         height: model.height
                         radius: model.radius
-                        source:"qrc:/qt-logo.png"
+                        source:"qt-logo.png"
                     }
                 }
             }
@@ -121,7 +121,7 @@ Window {
                         width: model.width
                         height: model.height
                         radius: model.radius
-                        source:"qrc:/qt-logo.png"
+                        source:"qt-logo.png"
                     }
                 }
             }
@@ -139,7 +139,7 @@ Window {
                         width: model.width
                         height: model.height
                         // radius: model.radius
-                        source:"qrc:/qt-logo.png"
+                        source:"qt-logo.png"
                     }
                 }
             }
@@ -157,7 +157,7 @@ Window {
                         width: model.width
                         height: model.height
                         radius: model.radius
-                        source:"qrc:/qt-logo.png"
+                        source:"qt-logo.png"
                     }
                 }
             }

@@ -1,5 +1,5 @@
 <RCC>
-    <qresource prefix="/">
+    <qresource prefix="/roundedImage">
         <file>main.qml</file>
         <file>RoundedImage.qml</file>
         <file>RoundedImage1.qml</file>
