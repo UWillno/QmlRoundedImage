@@ -33,10 +33,10 @@ void main() {
         fragColor = texture(source, qt_TexCoord0)* qt_Opacity;
     }
     else{
-        if(distance(vec2(upperLeft),coord) <r ||
-                distance(vec2(upperRight),coord)  < r||
-                distance(vec2(lowerLeft),coord) < r ||
-                distance(vec2(lowerRight),coord) < r)
+        if(distance(upperLeft,coord) <r ||
+                distance(upperRight,coord)  < r||
+                distance(lowerLeft,coord) < r ||
+                distance(lowerRight,coord) < r)
             fragColor = texture(source, qt_TexCoord0)* qt_Opacity;
         else
             fragColor =vec4(0)* qt_Opacity;
